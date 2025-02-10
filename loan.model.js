@@ -9,7 +9,7 @@ const LoanSchema = new Schema({
     },
     emiDuration: {
         type: Number,
-        required: true
+        required: false
     },
     startDate: {
         type: Date,
